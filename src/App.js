@@ -6,11 +6,20 @@ import Header from "./Header";
 import Note from "./Note";
 import Footer from "./Footer";
 import "./App.css"
+import notes from "./notes";
 
 function App(){
   return<div>
     <Header/>
-    <Note/>
+    {notes.map(function(note){
+      return <div>
+        <Note
+        title = {note.title}
+        content = {note.content}
+      />
+      </div>
+      
+    })}
     <Footer/>
   </div>
 }
