@@ -9,7 +9,7 @@ function Note(props){// now the delete function should trigger a function inside
     return <div className="note">
         <h3 className="note-title"> {props.title}</h3>
         <p className="note-content">{props.content}</p>
-        <button onClick={handleClick}>DELETE</button>
+        <button className="delete-button" onClick={handleClick}>Delete</button>
     </div>
 }
 

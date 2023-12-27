@@ -1,3 +1,8 @@
 body{
     background-color: rgb(234, 223, 223);
 }
+body {
+    background-image: url("backgroundImg.jpeg");
+    
+  }
+  
