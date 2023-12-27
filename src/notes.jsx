@@ -28,6 +28,11 @@ const notes = [
         title : "LLM",
         content: "need to be completed by february"
     },
+    {
+        id:7,
+        title : "LLM",
+        content: "need to be completed by february"
+    },
 ]
 
 export default notes

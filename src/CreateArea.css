@@ -1,0 +1,35 @@
+/* CSS code for google keeper app */
+
+.input-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    width: 80%;
+    margin: 10px;
+  }
+  
+  .input-content {
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    width: 80%;
+    margin: 10px;
+    resize: none;
+  }
+  
+  .submit-button {
+    background-color: #fbc02d;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    transform: scale(1.1);
+  }
+  
